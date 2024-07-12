@@ -10,4 +10,4 @@
 
 ## Notes
 
-### You must work on a new branch called, vCard, and create the PR, with an image of your progress.
+### You must work on a new branch called, vCard, and create the PR, with an image of your progress and add me such as Reviewer at your PR.
