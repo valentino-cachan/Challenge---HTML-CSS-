@@ -1,5 +1,16 @@
+body {
+	background-color: black;
+}
+h2 {
+	color: white;
+}
+.vCard {
+	display: grid;
+	place-items: center;
+	justify-content: center;
+	align-items: center;
+  }
 .classMayor {
-  border: 5px solid green;
   background-color: black solid;
   display: grid;
   place-items: center;
@@ -7,26 +18,25 @@
   align-items: center;
 }
 .partesuperior { 
-	border: 5px solid yellow;
 	background-color: #4C473C;
+
 	display: grid;
 	justify-content: center;
     align-items: center;
     place-items: center;
 }
 .classBottons {
-	border: 5px solid pink;
 	display: flex;
 	justify-content: center;
     align-items: center;
     place-items: center;
 }
 .classButton {
-	border: 5px solid red;
 	background-color: #32373B;
-	height: 5rem;
+	height: 3.8rem;
 	width: 7rem;
-	margin-right: 0.5%;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
 	border-radius: 13%;
 	display: grid;
 	justify-content: center;
@@ -41,7 +51,6 @@
 }
 .parteInferior {
 	background-color:  black;
-	border: solid 5px violet;
 	display: grid;
 	justify-content: center;
     align-items: center;
@@ -51,15 +60,8 @@
 	border: 5px solid blue;
 	border-radius: 50%;
 }
-body {
-	background-color: black;
-}
-h2 {
-	color: white;
-}
 .personalDates {
 	background-color: #1D1C1F;
-	border: green solid 3px;
 	border-radius: 15px;
 	justify-content: center;
     align-items: center;
