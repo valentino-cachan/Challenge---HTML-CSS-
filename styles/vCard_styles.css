@@ -1,36 +1,44 @@
 body {
 	background-color: black;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 h2 {
 	color: white;
 }
+
 .vCard {
 	display: grid;
 	place-items: center;
 	justify-content: center;
 	align-items: center;
-  }
-.classMayor {
-  background-color: black solid;
-  display: grid;
-  place-items: center;
-  justify-content: center;
-  align-items: center;
 }
-.partesuperior { 
-	background-color: #4C473C;
 
+.classMayor {
+	background-color: black solid;
+	display: grid;
+	place-items: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.partesuperior {
+	padding-top: 1em;
+	background-color: #4C473C;
 	display: grid;
 	justify-content: center;
-    align-items: center;
-    place-items: center;
+	align-items: center;
+	place-items: center;
 }
+
 .classBottons {
 	display: flex;
 	justify-content: center;
-    align-items: center;
-    place-items: center;
+	align-items: center;
+	place-items: center;
+	padding: 1em;
 }
+
 .classButton {
 	background-color: #32373B;
 	height: 3.8rem;
@@ -40,41 +48,43 @@ h2 {
 	border-radius: 13%;
 	display: grid;
 	justify-content: center;
-    align-items: center;
-    place-items: center;
+	align-items: center;
 }
+
 .classButton span {
 	color: #fff;
 }
+
 .classButton:hover>span {
 	color: #1678D9;
 }
+
 .parteInferior {
-	background-color:  black;
+	background-color: black;
 	display: grid;
 	justify-content: center;
-    align-items: center;
-    place-items: center;
+	align-items: center;
 }
+
 .classIMG {
-	border: 5px solid blue;
 	border-radius: 50%;
 }
+
 .personalDates {
-	background-color: #1D1C1F;
-	border-radius: 15px;
+	background-color: #252526;
 	justify-content: center;
-    align-items: center;
-    place-items: center;
-	height: 4rem;
-	width: 	27rem;	
-	padding-bottom: 1em;
+	align-items: center;
+	place-items: center;
+	width: 27rem;
+	padding: 1em;
 	margin-bottom: 1.2em;
 }
+
 .personalDates a {
 	color: white;
-font-size: 1.2rem;
+	font-size: 1.2rem;
 }
+
 .personalDates a u:hover {
 	color: #1678D9;
 }
