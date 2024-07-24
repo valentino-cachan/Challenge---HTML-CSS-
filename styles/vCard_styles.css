@@ -7,35 +7,24 @@ h2 {
 	color: white;
 }
 
-.vCard {
-	display: grid;
+.center {
 	place-items: center;
 	justify-content: center;
 	align-items: center;
 }
 
-.classMayor {
-	background-color: black solid;
+.vCard {
 	display: grid;
-	place-items: center;
-	justify-content: center;
-	align-items: center;
-}
+	}
 
 .partesuperior {
 	padding-top: 1em;
 	background-color: #4C473C;
 	display: grid;
-	justify-content: center;
-	align-items: center;
-	place-items: center;
 }
 
 .classBottons {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	place-items: center;
 	padding: 1em;
 }
 
@@ -47,12 +36,17 @@ h2 {
 	margin-left: 1.5%;
 	border-radius: 13%;
 	display: grid;
+	place-items: center;
 	justify-content: center;
 	align-items: center;
 }
 
 .classButton span {
 	color: #fff;
+}
+
+.classButton:active {
+	background-color: white;
 }
 
 .classButton:hover>span {
@@ -62,8 +56,6 @@ h2 {
 .parteInferior {
 	background-color: black;
 	display: grid;
-	justify-content: center;
-	align-items: center;
 }
 
 .classIMG {
@@ -72,12 +64,10 @@ h2 {
 
 .personalDates {
 	background-color: #252526;
-	justify-content: center;
-	align-items: center;
-	place-items: center;
 	width: 27rem;
 	padding: 1em;
 	margin-bottom: 1.2em;
+	border-radius: 15px;
 }
 
 .personalDates a {
